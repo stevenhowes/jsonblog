@@ -1,0 +1,25 @@
+I’ve decided I should be writing down some of what I’m doing, as I’m sure others are doing the same things and may be interested. So…<br/>
+<br/>
+<img src="posts/8fb0d1a9-8735-4824-afeb-971cf3e6e99f.media/image.png"/><br/>
+<br/>
+That is my packet node (it’s a work in progress). Currently it’s running on my rather messy desk at home, but will soon be moving to a hill top just south of Dorchester. It’s currently at 5W, which seems to be enough to reach the next nearest node which I’m aware of – MB7NSC at Bell Hill.<br/>
+<br/>
+It currently consists of:<br/>
+<br/>
+<ul>
+<li>A Tait 2010 with a data interface TODO: Remember which one it was…</li>
+<li>A NinoTNC, from one of the OARC.uk batch</li>
+<li>A Raspberry Pi (under the NinoTNC in the photo)</li>
+<li>A two channel relay board <a href="https://www.amazon.co.uk/dp/B013ER8RE6">Amazon</a></li>
+<li>A panel mount BNC <a href="https://www.amazon.co.uk/dp/B07TH466DY"> Amazon</a></li>
+<li>A ‘UBEC’ to provide 5V (hidden under the Pi in the photo) <a href="https://www.amazon.co.uk/dp/B0B4K188T9">Amazon</a></li>
+<li>A DE15 to DE9 data cable (home made - details soon)</li>
+</ul>
+<br/>
+The relay board is operated by two of the GPIO pins on the Pi. One of the relays turns the radio power off and on, and the other interrupts the PTT line. This allows me to remotely deactivate the RF side if required.<br/>
+<br/>
+For debugging there is a Wago connector on the wire loop in the power connector which is used to enable/disable the speaker.<br/>
+<br/>
+The power supply is going to get a separate write-up soon, as will the enclosure/mounting when it moves to its final location. If I get carried away with MS Paint, I may draw a quick schematic showing how things are connected.<br/>
+<br/>
+More information coming soon!<br/>
